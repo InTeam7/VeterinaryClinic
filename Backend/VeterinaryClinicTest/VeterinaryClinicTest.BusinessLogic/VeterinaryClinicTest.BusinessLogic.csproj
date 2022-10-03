@@ -1,0 +1,160 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AutoMapper" />
+    <None Remove="Dto\" />
+    <None Remove="Mappers\" />
+    <None Remove="Services\Abstractions\" />
+    <None Remove="Services\Abstractions\Queries\" />
+    <None Remove="Services\Implementation\" />
+    <None Remove="Services\Abstractions\Commands\" />
+    <None Remove="Services\Implementation\Queries\" />
+    <None Remove="Services\Implementation\Commands\" />
+    <None Remove="MediatR" />
+    <None Remove="Queries\" />
+    <None Remove="Commands\" />
+    <None Remove="Commands\Vaccine\" />
+    <None Remove="Commands\Vaccine\Models\" />
+    <None Remove="Commands\Vaccine\Handlers\" />
+    <None Remove="Queries\Vaccine\" />
+    <None Remove="Queries\Vaccine\Models\" />
+    <None Remove="Queries\Vaccine\Handlers\" />
+    <None Remove="Commands\Animal\" />
+    <None Remove="Commands\Animal\Handlers\" />
+    <None Remove="Commands\Animal\Models\" />
+    <None Remove="Microsoft.AspNetCore.Http" />
+    <None Remove="Queries\Animals\" />
+    <None Remove="Queries\Animals\Handlers\" />
+    <None Remove="Queries\Animals\Models\" />
+    <None Remove="Commands\Client\" />
+    <None Remove="Commands\Client\Models\" />
+    <None Remove="Commands\Client\Handlers\" />
+    <None Remove="Queries\Client\" />
+    <None Remove="Queries\Client\Models\" />
+    <None Remove="Queries\Client\Handlers\" />
+    <None Remove="Commands\ProvidedService\" />
+    <None Remove="Commands\ProvidedService\Models\" />
+    <None Remove="Commands\ProvidedService\Handlers\" />
+    <None Remove="Queries\ProvidedService\" />
+    <None Remove="Queries\ProvidedService\Models\" />
+    <None Remove="Queries\ProvidedService\Handlers\" />
+    <None Remove="Commands\ClinicService\" />
+    <None Remove="Commands\ClinicService\Models\" />
+    <None Remove="Commands\ClinicService\Handlers\" />
+    <None Remove="Queries\ClinicService\" />
+    <None Remove="Queries\ClinicService\Models\" />
+    <None Remove="Queries\ClinicService\Handlers\" />
+    <None Remove="Commands\Doctor\" />
+    <None Remove="Commands\Doctor\Models\" />
+    <None Remove="Commands\Doctor\Handlers\" />
+    <None Remove="Queries\Doctor\" />
+    <None Remove="Queries\Doctor\Models\" />
+    <None Remove="Queries\Doctor\Handlers\" />
+    <None Remove="Microsoft.Extensions.DependencyInjection" />
+    <None Remove="Autofac" />
+    <None Remove="Autofac.Extensions.DependencyInjection" />
+    <None Remove="Autofac.WebApi2" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="FluentValidation" />
+    <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="Queries\Animals\Validators\" />
+    <None Remove="Common\" />
+    <None Remove="Queries\Client\Validators\" />
+    <None Remove="Queries\ClinicService\Validators\" />
+    <None Remove="Queries\Doctor\Validators\" />
+    <None Remove="Queries\ProvidedService\Validators\" />
+    <None Remove="Queries\Vaccine\Validators\" />
+    <None Remove="Commands\Animal\Validators\" />
+    <None Remove="Commands\Client\Validators\" />
+    <None Remove="Commands\ClinicService\Validators\" />
+    <None Remove="Commands\Doctor\Validators\" />
+    <None Remove="Commands\ProvidedService\Validators\" />
+    <None Remove="Commands\Vaccine\Validators\" />
+    <None Remove="Services\Abstractions\Helpers\" />
+    <None Remove="Services\Implementation\Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation" Version="10.1.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dto\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Services\Abstractions\" />
+    <Folder Include="Services\Abstractions\Queries\" />
+    <Folder Include="Services\Implementation\" />
+    <Folder Include="Services\Abstractions\Commands\" />
+    <Folder Include="Services\Implementation\Queries\" />
+    <Folder Include="Services\Implementation\Commands\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Commands\Vaccine\" />
+    <Folder Include="Commands\Vaccine\Models\" />
+    <Folder Include="Commands\Vaccine\Handlers\" />
+    <Folder Include="Queries\Vaccine\" />
+    <Folder Include="Queries\Vaccine\Models\" />
+    <Folder Include="Queries\Vaccine\Handlers\" />
+    <Folder Include="Commands\Animal\" />
+    <Folder Include="Commands\Animal\Handlers\" />
+    <Folder Include="Commands\Animal\Models\" />
+    <Folder Include="Queries\Animals\" />
+    <Folder Include="Queries\Animals\Handlers\" />
+    <Folder Include="Queries\Animals\Models\" />
+    <Folder Include="Commands\Client\" />
+    <Folder Include="Commands\Client\Models\" />
+    <Folder Include="Commands\Client\Handlers\" />
+    <Folder Include="Queries\Client\" />
+    <Folder Include="Queries\Client\Models\" />
+    <Folder Include="Queries\Client\Handlers\" />
+    <Folder Include="Commands\ProvidedService\" />
+    <Folder Include="Commands\ProvidedService\Models\" />
+    <Folder Include="Commands\ProvidedService\Handlers\" />
+    <Folder Include="Queries\ProvidedService\" />
+    <Folder Include="Queries\ProvidedService\Models\" />
+    <Folder Include="Queries\ProvidedService\Handlers\" />
+    <Folder Include="Commands\ClinicService\" />
+    <Folder Include="Commands\ClinicService\Models\" />
+    <Folder Include="Commands\ClinicService\Handlers\" />
+    <Folder Include="Queries\ClinicService\" />
+    <Folder Include="Queries\ClinicService\Models\" />
+    <Folder Include="Queries\ClinicService\Handlers\" />
+    <Folder Include="Commands\Doctor\" />
+    <Folder Include="Commands\Doctor\Models\" />
+    <Folder Include="Commands\Doctor\Handlers\" />
+    <Folder Include="Queries\Doctor\" />
+    <Folder Include="Queries\Doctor\Models\" />
+    <Folder Include="Queries\Doctor\Handlers\" />
+    <Folder Include="Queries\Animals\Validators\" />
+    <Folder Include="Common\" />
+    <Folder Include="Queries\Client\Validators\" />
+    <Folder Include="Queries\ClinicService\Validators\" />
+    <Folder Include="Queries\Doctor\Validators\" />
+    <Folder Include="Queries\ProvidedService\Validators\" />
+    <Folder Include="Queries\Vaccine\Validators\" />
+    <Folder Include="Commands\Animal\Validators\" />
+    <Folder Include="Commands\Client\Validators\" />
+    <Folder Include="Commands\ClinicService\Validators\" />
+    <Folder Include="Commands\Doctor\Validators\" />
+    <Folder Include="Commands\ProvidedService\Validators\" />
+    <Folder Include="Commands\Vaccine\Validators\" />
+    <Folder Include="Services\Abstractions\Helpers\" />
+    <Folder Include="Services\Implementation\Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VeterinaryClinicTest.DataAccess\VeterinaryClinicTest.DataAccess.csproj" />
+    <ProjectReference Include="..\VeterinaryClinicTest.Core\VeterinaryClinicTest.Core.csproj" />
+  </ItemGroup>
+</Project>
