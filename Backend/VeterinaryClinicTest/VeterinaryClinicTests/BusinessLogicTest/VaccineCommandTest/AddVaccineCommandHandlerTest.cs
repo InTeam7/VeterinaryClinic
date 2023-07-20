@@ -17,6 +17,7 @@ namespace VeterinaryClinicTests.BusinessLogicTest.VaccineCommandTest
     {
         private readonly Mock<IVaccineRepository> _vaccineRespositoryMock;
         private readonly VaccineCommandsService _service;
+        //
 
         public AddVaccineCommandHandlerTest()
         {
